@@ -6,8 +6,11 @@ This is a console-based Employee Management System built using Python and MySQL,
 
 The project focuses on:
 - clean code structure
+  
 - database efficiency
+  
 - input validation
+  
 - performance-aware design
 
 Unlike GUI-heavy projects, this system emphasizes logic, scalability, and backend best practices.
@@ -15,11 +18,17 @@ Unlike GUI-heavy projects, this system emphasizes logic, scalability, and backen
 ## 🧠 Key Concepts Demonstrated
 
 - CRUD operations with MySQL
+  
 - Layered architecture (UI → Service → Repository → DB)
+  
 - Database-level pagination
+  
 - Indexing for performance optimization
+  
 - Soft delete strategy
+  
 - Input validation at multiple layers
+  
 - Logging and error handling
 
 ## 🛠 Tech Stack
@@ -94,9 +103,7 @@ Instead:
 
 This ensures:    
     - data safety
-
     - auditability
-
     - realistic enterprise behavior
 
 ## ⚡ Database Schema
