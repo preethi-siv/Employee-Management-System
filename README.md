@@ -1,22 +1,18 @@
-#📌 Employee Management System (Console-Based, MySQL)
+# 📌Employee Management System (Console-Based, MySQL)
 
-🔍 Project Overview
+## 🔍 Project Overview
 
 This is a console-based Employee Management System built using Python and MySQL, designed with a layered architecture to simulate a real-world backend system.
 
 The project focuses on:
-
-clean code structure
-
-database efficiency
-
-input validation
-
-performance-aware design
+- clean code structure
+- database efficiency
+- input validation
+- performance-aware design
 
 Unlike GUI-heavy projects, this system emphasizes logic, scalability, and backend best practices.
 
-🧠 Key Concepts Demonstrated
+## 🧠 Key Concepts Demonstrated
 
 CRUD operations with MySQL
 
@@ -32,7 +28,7 @@ Input validation at multiple layers
 
 Logging and error handling
 
-🛠 Tech Stack
+## 🛠 Tech Stack
 
 Language: Python
 
@@ -44,7 +40,7 @@ Architecture: Layered (Repository, Service, UI)
 
 Version Control: Git & GitHub
 
-📁 Project Structure
+## 📁 Project Structure
 Employee Management/
 │
 ├── db/
@@ -66,8 +62,8 @@ Employee Management/
 ├── main.py                    # Application entry point
 └── README.md
 
-✨ Features
-✅ Employee Operations
+## ✨ Features
+### ✅ Employee Operations
 
 Add employee
 
@@ -85,7 +81,7 @@ Department
 
 List employees with pagination
 
-✅ Data Validation
+### ✅ Data Validation
 
 Prevents numeric or empty names/departments
 
@@ -95,7 +91,7 @@ Handles invalid salary inputs
 
 Early validation in UI + final validation in service layer
 
-✅ Performance-Oriented Design
+### ✅ Performance-Oriented Design
 
 Database-level pagination using LIMIT & OFFSET
 
@@ -103,7 +99,7 @@ Indexing on frequently searched columns
 
 Avoids loading large datasets into memory
 
-✅ Soft Delete Strategy
+### ✅ Soft Delete Strategy
 
 Employees are not permanently deleted.
 Instead:
@@ -119,7 +115,7 @@ auditability
 
 realistic enterprise behavior
 
-⚡ Database Schema
+## ⚡ Database Schema
 CREATE TABLE employee (
     emp_id INT AUTO_INCREMENT PRIMARY KEY,
     name VARCHAR(100) NOT NULL,
@@ -135,24 +131,24 @@ CREATE INDEX idx_emp_id ON employee(emp_id);
 CREATE INDEX idx_emp_name ON employee(name);
 CREATE INDEX idx_emp_department ON employee(department);
 
-🚀 How to Run the Project
-1️⃣ Clone the repository
+## 🚀 How to Run the Project
+### 1️⃣ Clone the repository
 git clone <your-repo-url>
 cd Employee-Management
 
-2️⃣ Install dependencies
+### 2️⃣ Install dependencies
 pip install mysql-connector-python
 
-3️⃣ Configure database
+### 3️⃣ Configure database
 
 Update credentials in:
 
 db/connection.py
 
-4️⃣ Run the application
+### 4️⃣ Run the application
 python main.py
 
-🧪 Sample Console Menu
+## 🧪 Sample Console Menu
 Employee Management System
 1. Add Employee
 2. Search by ID
@@ -163,7 +159,7 @@ Employee Management System
 7. List Employees
 0. Exit
 
-🧩 Design Decisions
+## 🧩 Design Decisions
 
 Repository layer contains only SQL queries
 
@@ -175,7 +171,7 @@ Database handles pagination and indexing for efficiency
 
 This separation improves maintainability and scalability.
 
-📌 What This Project Shows to Recruiters
+## 📌 What This Project Shows to Recruiters
 
 Strong backend fundamentals
 
@@ -187,7 +183,7 @@ Clean architecture and separation of concerns
 
 Production-style error handling
 
-🔮 Future Enhancements
+## 🔮 Future Enhancements
 
 REST API using Flask / FastAPI
 
@@ -199,8 +195,9 @@ Unit testing
 
 Export reports (CSV / PDF)
 
-👤 Author
+## 👤 Author
 
 Preethi
 Final Year BE CSE
-Backend & Software Development Enthusiast
+Software Development Enthusiast
+
