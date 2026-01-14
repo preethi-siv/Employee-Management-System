@@ -44,25 +44,30 @@ Unlike GUI-heavy projects, this system emphasizes logic, scalability, and backen
 - **Version Control:** Git & GitHub
 
 ## 📁 Project Structure
-Employee Management/
+Employee-Management/
+
 │
+
 ├── db/
-│   └── connection.py          # MySQL connection handling
+
+│ └── connection.py # MySQL connection handling
+
 │
+
 ├── repository/
-│   └── employee_repo.py       # SQL queries & DB operations
+│ └── employee_repo.py # SQL queries & database operations
 │
 ├── service/
-│   └── employee_service.py    # Business logic & validation
+│ └── employee_service.py # Business logic and validations
 │
 ├── ui/
-│   └── console.py             # Console-based user interface
+│ └── console.py # Console-based user interface
 │
 ├── utils/
-│   ├── logger.py              # Application logging
-│   └── validator.py           # (Reserved for future reuse)
+│ ├── logger.py # Application logging
+│ └── validator.py # (Reserved for future validation reuse)
 │
-├── main.py                    # Application entry point
+├── main.py # Application entry point
 └── README.md
 
 ## ✨ Features
@@ -191,6 +196,8 @@ This separation improves maintainability and scalability.
 ## 👤 Author
 
 **Preethi**
+
 Final Year BE CSE
+
 Software Development Enthusiast
 
