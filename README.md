@@ -102,11 +102,12 @@ Instead:
         is_active = FALSE
 
 This ensures:    
-    - data safety
-    - auditability
-    - realistic enterprise behavior
+- data safety
+- auditability
+- realistic enterprise behavior
 
 ## ⚡ Database Schema
+
 CREATE TABLE employee (
     emp_id INT AUTO_INCREMENT PRIMARY KEY,
     name VARCHAR(100) NOT NULL,
@@ -117,7 +118,8 @@ CREATE TABLE employee (
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
 
-Indexes Used
+### Indexes Used
+
 CREATE INDEX idx_emp_id ON employee(emp_id);
 CREATE INDEX idx_emp_name ON employee(name);
 CREATE INDEX idx_emp_department ON employee(department);
