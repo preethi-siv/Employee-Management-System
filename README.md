@@ -63,44 +63,41 @@ Employee Management/
 - Update employee details
 - Soft delete employee (is_active flag)
 - Search employee by:
-- ID
-- Name
-- Department
+    - ID
+    - Name
+    - Department
 - List employees with pagination
 
 ### ✅ Data Validation
 
-Prevents numeric or empty names/departments
+- Prevents numeric or empty names/departments
 
-Validates email format
+- Validates email format
 
-Handles invalid salary inputs
+- Handles invalid salary inputs
 
-Early validation in UI + final validation in service layer
+- Early validation in UI + final validation in service layer
 
 ### ✅ Performance-Oriented Design
 
-Database-level pagination using LIMIT & OFFSET
+- Database-level pagination using LIMIT & OFFSET
 
-Indexing on frequently searched columns
+- Indexing on frequently searched columns
 
-Avoids loading large datasets into memory
+- Avoids loading large datasets into memory
 
 ### ✅ Soft Delete Strategy
 
 Employees are not permanently deleted.
 Instead:
+        is_active = FALSE
 
-is_active = FALSE
+This ensures:    
+    - data safety
 
+    - auditability
 
-This ensures:
-
-data safety
-
-auditability
-
-realistic enterprise behavior
+    - realistic enterprise behavior
 
 ## ⚡ Database Schema
 CREATE TABLE employee (
@@ -148,43 +145,43 @@ Employee Management System
 
 ## 🧩 Design Decisions
 
-Repository layer contains only SQL queries
+- **Repository layer** contains only SQL queries
 
-Service layer enforces business rules and validation
+- **Service layer** enforces business rules and validation
 
-UI layer handles user interaction and early feedback
+- **UI layer** handles user interaction and early feedback
 
-Database handles pagination and indexing for efficiency
+- **Database** handles pagination and indexing for efficiency
 
 This separation improves maintainability and scalability.
 
 ## 📌 What This Project Shows to Recruiters
 
-Strong backend fundamentals
+- Strong backend fundamentals
 
-Real MySQL integration (not mock data)
+- Real MySQL integration (not mock data)
 
-Performance-aware coding
+- Performance-aware coding
 
-Clean architecture and separation of concerns
+- Clean architecture and separation of concerns
 
-Production-style error handling
+- Production-style error handling
 
 ## 🔮 Future Enhancements
 
-REST API using Flask / FastAPI
+- REST API using Flask / FastAPI
 
-Authentication & role-based access
+- Authentication & role-based access
 
-Advanced email validation
+- Advanced email validation
 
-Unit testing
+- Unit testing
 
-Export reports (CSV / PDF)
+- Export reports (CSV / PDF)
 
 ## 👤 Author
 
-Preethi
+**Preethi**
 Final Year BE CSE
 Software Development Enthusiast
 
