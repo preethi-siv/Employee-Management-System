@@ -47,13 +47,9 @@ Unlike GUI-heavy projects, this system emphasizes logic, scalability, and backen
 Employee-Management/
 
 │
-
 ├── db/
-
 │ └── connection.py # MySQL connection handling
-
 │
-
 ├── repository/
 │ └── employee_repo.py # SQL queries & database operations
 │
