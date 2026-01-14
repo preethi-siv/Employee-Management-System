@@ -14,31 +14,25 @@ Unlike GUI-heavy projects, this system emphasizes logic, scalability, and backen
 
 ## 🧠 Key Concepts Demonstrated
 
-CRUD operations with MySQL
-
-Layered architecture (UI → Service → Repository → DB)
-
-Database-level pagination
-
-Indexing for performance optimization
-
-Soft delete strategy
-
-Input validation at multiple layers
-
-Logging and error handling
+- CRUD operations with MySQL
+- Layered architecture (UI → Service → Repository → DB)
+- Database-level pagination
+- Indexing for performance optimization
+- Soft delete strategy
+- Input validation at multiple layers
+- Logging and error handling
 
 ## 🛠 Tech Stack
 
-Language: Python
+- **Language:** Python
 
-Database: MySQL
+- **Database:** MySQL
 
-Connector: mysql-connector-python
+- **Connector**: mysql-connector-python
 
-Architecture: Layered (Repository, Service, UI)
+- **Architecture:** Layered (Repository, Service, UI)
 
-Version Control: Git & GitHub
+- **Version Control:** Git & GitHub
 
 ## 📁 Project Structure
 Employee Management/
@@ -65,21 +59,14 @@ Employee Management/
 ## ✨ Features
 ### ✅ Employee Operations
 
-Add employee
-
-Update employee details
-
-Soft delete employee (is_active flag)
-
-Search employee by:
-
-ID
-
-Name
-
-Department
-
-List employees with pagination
+- Add employee
+- Update employee details
+- Soft delete employee (is_active flag)
+- Search employee by:
+- ID
+- Name
+- Department
+- List employees with pagination
 
 ### ✅ Data Validation
 
